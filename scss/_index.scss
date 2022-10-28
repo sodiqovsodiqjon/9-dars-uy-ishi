@@ -1,0 +1,250 @@
+
+
+.header__link{
+    font-size: 37px;
+    color: #fff;
+}
+.header__roster{
+    display: flex; 
+     margin-right: 40%;
+     margin-top: 16px;
+}
+.header__roster-text{
+  
+    margin: 6px 40px;
+    color: #fff;
+}
+
+.header__bowl{
+    margin-top: 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    margin-top: 9px;
+    margin-right: 78px;
+    padding: 9px 33px 11px 32px;
+    background: #014E56;
+    color: #fff;
+}
+.header__btn{
+    background-color: #014E56;
+/* border-color: #014E56; */
+border: 0 solid;
+}
+
+.our__item{
+    position: relative;
+    width: 584px;
+    color: #fff;
+    font-family: 'Livvic';
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    padding-bottom: 0px;
+
+    &::before{
+        position: absolute;
+        
+        display: block;
+        width: 358px;
+        height: 200px;
+        content: "";
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url(../images/rasim2.svg);
+        left:-180px;
+
+    }
+
+}
+.our__item-spn{
+    color: #F67E7E;
+}
+.our__bowl{
+    display: flex;
+}
+.our__text{
+    top: 133px;
+    left: 52px;
+    position: absolute;
+    /* margin-right: -113%; */
+    margin-left: 0;
+    font-family: "Livvic";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+
+    &::before{
+        position: absolute;
+        content: "";
+        display: block;
+        width: 52px;
+        height: 1px;
+        background-color: #79C8C7;
+        border: 2px solid #79C8C7;
+        top: -85px;
+    }
+    // &::after{
+    //     position: absolute;
+    //     top: 200px;
+    //     display: block;
+    //     width: 358px;
+    //     height: 200px;
+    //     content: "";
+    //     background-repeat: no-repeat;
+    //     background-size: contain;
+    //     background-image: url(../images/rasimpadagi.svg);
+    // }
+}
+.our__img{
+    top: 550px;
+    margin-left: 700px;
+}
+
+@media only screen and (max-width:768px){
+    .header__link{
+        margin-left: 70px;
+        font-size: 55px;
+        color: #fff;
+    }
+ 
+.our__text::before{
+    display: none;
+}
+.our__item{
+    font-family: 'Livvic';
+font-style: normal;
+font-weight: 700;
+font-size: 85px;
+line-height: 77px;
+// margin-left: 150px;
+margin-left: 85px;
+
+text-align: center;
+
+color: #FFFFFF;
+    // width: 327px;
+    // font-size:53px;
+    // flex-wrap: wrap;
+    // margin-left: 261px;
+    // line-height: 70px;
+}
+.our__item::before{
+    display: none;
+}
+.btn{
+    padding: 8px 59px 11px 58px;
+}
+.btn__text{
+    width: 80px;
+    font-size: 15px;
+}
+.our__text{
+    width: 600px;
+    font-size: 28px;
+    flex-wrap: wrap;
+    line-height: 28px;
+    margin-left: -542px;
+    margin-top: 261px;
+    align-items: center;
+}
+ 
+.our__img {
+    margin-top: 94px;
+    margin-left: 230px;
+
+}
+}
+
+@media only screen and (max-width:375px){
+    .header__roster{
+        display: none;
+    }
+    
+    .btn{
+        display: none;
+    }
+    .eader__link{
+        margin-left: 70px;
+    font-size: 55px;
+    color: #fff;
+    }
+    .header__btn{
+        display: block;
+        width: 20px;
+        height: 20px;
+        border: none;
+        background-color: #014E56;
+        padding: 2px;
+        // margin-left: -25px;
+        
+            &::before,
+            &::after,
+            &-inner{
+                display: block;
+        width: 20px;
+        height: 20px;
+        border: none;
+        background-color: #014E56;
+        // border: 1px solid;
+        padding: 2px;
+         display: block;
+         width: 100%;
+         height: 3px;
+         background-color: #fff;
+         content: "";
+         margin-bottom: 3px;
+         border-radius: 40px;
+         width: 30px;
+         margin-left: 264px;
+            }
+        }
+
+        .header__inner{
+            width: 26px;
+            margin-left: 373px;
+        }
+        .our__img{
+            position: relative;
+            width: 727px;
+            top: 500px;
+            margin-left: 0px;
+        }
+        .our__item{
+                position: absolute;
+        font-family: "Livvic";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 98px;
+        line-height: 84px;
+        text-align: center;
+        color: #FFFFFF;
+
+        }
+        .our__text{
+        left: 52px;
+        position: absolute;
+        margin-right: -93%;
+        margin-left: 0;
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 50px;
+        /* or 187% */
+
+        text-align: center;
+
+        color: #FFFFFF;
+
+        }
+        }
+        
+
